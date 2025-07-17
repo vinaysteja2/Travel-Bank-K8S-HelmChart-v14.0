@@ -1,0 +1,27 @@
+dependencies:
+- name: travelbank-common
+  repository: file://../../travelbank-common
+  version: 0.1.0
+- name: configserver
+  repository: file://../../travelbank-services/configserver
+  version: 0.1.0
+- name: eurekaserver
+  repository: file://../../travelbank-services/eurekaserver
+  version: 0.1.0
+- name: accounts
+  repository: file://../../travelbank-services/accounts
+  version: 0.1.0
+- name: cards
+  repository: file://../../travelbank-services/cards
+  version: 0.1.0
+- name: loans
+  repository: file://../../travelbank-services/loans
+  version: 0.1.0
+- name: gatewayserver
+  repository: file://../../travelbank-services/gatewayserver
+  version: 0.1.0
+- name: message
+  repository: file://../../travelbank-services/message
+  version: 0.1.0
+digest: sha256:90fba03630ccc00f73fd12965c34d9edfbb442c6bff62e19c2ce46a912a32972
+generated: "2025-07-17T20:12:20.8890823+05:30"
